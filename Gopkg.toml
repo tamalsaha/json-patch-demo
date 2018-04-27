@@ -29,6 +29,14 @@
   name = "github.com/evanphx/json-patch"
   version = "3.0.0"
 
+[[override]]
+  name = "k8s.io/api"
+  version = "kubernetes-1.9.0"
+
+[[override]]
+  name = "k8s.io/apimachinery"
+  version = "kubernetes-1.9.0"
+
 [prune]
   go-tests = true
   unused-packages = true
